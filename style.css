@@ -1,0 +1,56 @@
+body{
+  background-image: url('./src/img/img-bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 1rem;
+}
+
+.converted-value {
+  color: black;
+  background-color: #F9FAFC;
+  border-radius: .5rem;
+  padding: .1rem;
+  font-weight: bolder;
+}
+
+.conversion-precision {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.container-error-message{
+  background-color: rgb(236, 234, 108);
+  width: 25rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.hidden{
+  display: none;
+}
+
+.container-error-message p{
+  font-weight: bold;
+  margin: auto;
+}
+
+.container-error-message button{
+  border: none;
+  padding: .5rem;
+  border-radius: .5rem;
+  background-color: rgb(161, 161, 13);
+  height: 2.5rem;
+  width: 2rem;
+  font-weight: bold;
+}
