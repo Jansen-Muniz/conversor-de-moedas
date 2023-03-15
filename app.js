@@ -80,6 +80,6 @@ currencyOneEl.addEventListener('input', async e => {
   internalExchange = {...(await getCurrency(e.target.value))}
   showUpdatedRates()
 })
-buttonCloseEl.addEventListener('click', closeErrorMessage())
+buttonCloseEl.addEventListener('click', closeErrorMessage)
 
 init()

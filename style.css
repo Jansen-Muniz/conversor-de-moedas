@@ -1,5 +1,5 @@
 body{
-  background-image: url('./src/img/img-bg.jpg');
+  background-image: linear-gradient(rgb(42, 42, 177), rgb(0, 195, 255), rgb(0, 9, 128));
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13,7 +13,6 @@ body{
 
 .converted-value {
   color: black;
-  background-color: #F9FAFC;
   border-radius: .5rem;
   padding: .1rem;
   font-weight: bolder;
